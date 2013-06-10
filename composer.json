@@ -1,0 +1,15 @@
+{
+    "name": "kennisnet/yourls-plugin-installer",
+    "description": "Composer installer for Yourls plugins",
+    "type": "composer-installer",
+    "license": "proprietary",
+    "require-dev": {
+        "composer/composer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Kennisnet\\Yourls\\Composer": "lib" }
+    },
+    "extra": {
+        "class": "Kennisnet\\Yourls\\Composer\\PluginInstaller"
+    }    
+}
