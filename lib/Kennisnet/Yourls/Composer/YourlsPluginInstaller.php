@@ -5,7 +5,7 @@ namespace Kennisnet\Yourls\Composer;
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
-class PluginInstaller extends LibraryInstaller
+class YourlsPluginInstaller extends LibraryInstaller
 {
     
     /**
