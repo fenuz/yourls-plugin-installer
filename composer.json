@@ -10,6 +10,6 @@
         "psr-0": { "Kennisnet\\Yourls\\Composer": "lib" }
     },
     "extra": {
-        "class": "Kennisnet\\Yourls\\Composer\\YourlsPluginInstallerPlugin"
+        "class": "Kennisnet\\Yourls\\Composer\\PluginInstaller"
     }    
 }
